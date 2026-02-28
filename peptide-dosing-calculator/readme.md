@@ -48,7 +48,7 @@ Shortcode:
 ## License
 GPL-2.0-or-later
 
-## Reasining behind this apporach 
+## Reasoning behind this apporach 
 - Matches task requirement exactly.
 - Keeps the plugin theme-independent.
 - Allows flexible placement in posts/pages.
