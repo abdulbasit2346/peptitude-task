@@ -1,0 +1,84 @@
+
+.pdc-wrapper {
+    max-width: 600px;
+    margin: auto;
+    padding: 35px;
+    font-family: Arial, sans-serif;
+    border: 2px solid green;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #E6FFF4, #FFFFFF);
+    box-shadow: 
+    0 35px 80px rgba(16, 185, 129, 0.18),
+    0 20px 40px rgba(0, 0, 0, 0.10);
+      opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInSmooth 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes fadeInSmooth {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pdc-disclaimer {
+    background: #ffeaea;
+    border: 2px solid red;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#pdc-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#pdc-form select,
+#pdc-form input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+        border-radius: 8px;
+     background: linear-gradient(135deg, #E6FFF4, #FFFFFF);
+}
+
+.pdc-results {
+    margin-top: 20px;
+    padding: 15px;
+    background: #66bf9c;
+color: #fff;
+    border-radius: 6px;
+}
+
+.pdc-bar-container {
+    width: 100%;
+    background: #ddd;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.pdc-bar {
+    height: 100%;
+    width: 0;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.pdc-error {
+    color: red;
+    margin-top: 10px;
+}
+
+.pdc-warning {
+    color: darkred;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.result-head{
+    text-align: center;
+}
