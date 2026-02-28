@@ -3,7 +3,7 @@
  * Plugin Name: Peptide Dosing Calculator
  * Description: Frontend shortcode-based peptide reconstitution and dosing calculator.
  * Version: 1.0.0
- * Author: Your Name
+ * Author: Abdul Basit
  * License: GPL-2.0-or-later
  * Text Domain: peptide-dosing-calculator
  */
