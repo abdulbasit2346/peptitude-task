@@ -48,4 +48,15 @@ Shortcode:
 ## License
 GPL-2.0-or-later
 
+## Reasining behind this apporach 
+- Matches task requirement exactly.
+- Keeps the plugin theme-independent.
+- Allows flexible placement in posts/pages.
+- Avoids modifying templates or requiring Gutenberg blocks.
+- Improves code organization and readability.
+- Provides real-time feedback without page reload.
+- No database or persistence needed.
+- Improves user experience.
+- Lightweight and backward compatible.
+
 
